@@ -1,0 +1,35 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+}
+button {
+  font-family: 'Inter', sans-serif;
+}
+.header {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  width: 1150px;
+}
+.title {
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  width: 1150px;
+}
+.bored__content {
+  margin-bottom: 50px;
+  width: 1150px;
+}
+.bored__text {
+  text-align: center;
+}
+.button {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
