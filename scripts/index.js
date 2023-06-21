@@ -20,7 +20,6 @@ const fetchHandler = () => {
   });
 }
 
-
 buttonNode.addEventListener('click', () => {
   titleChange();
   fetchHandler();
