@@ -13,20 +13,18 @@ const titleChange = () => {
 
 const backgroundColorChange = () =>{
   bodyNode.classList.add('active-color');
-}
+};
 
  async function fetchHandler() {
    try {
     const response = await fetch('https://www.boredapi.com/api/activity/');
     const res = await response.json();
-    const boredText = res.activity
-    console.log(boredText)
-    boredTextNode.innerHTML = `<p class="js-bored-text bored__text">${boredText}</p>`
+    const boredText = res.activity;
+    boredTextNode.innerHTML = `<p class="js-bored-text bored__text">${boredText}</p>`;
    } catch (e) {
     console.error(e)
-   }
-  
-}
+   };
+};
 
 /*const fetchHandler = () => {
   fetch('https://www.boredapi.com/api/activity/')
@@ -45,4 +43,4 @@ buttonNode.addEventListener('click', () => {
   titleChange();
   backgroundColorChange();
   fetchHandler();
-})
+});
